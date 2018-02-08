@@ -1,17 +1,27 @@
 #container
 {
+    width: 600px;
     background-image: radial-gradient(#ecc6d9,purple);
 	color: black;
+        border: inset  #8a00e6 15px;
+        padding: 10px;
 }
-
+#headingFont
+{
+    font-family: 'Rammetto One', cursive;
+    text-align: center;
+}
 img {
    width: 90px;
    height: 90px;
    float: left;
 }
 #idCard {
+   margin-left: 90px;
    border: 5px solid black;
+   border-radius: 25px;
    background-image: radial-gradient(#ffd9b3,#ffb366);
+   font-family: 'Ubuntu', sans-serif;
    height: 14em;
    width: 25em;
 }

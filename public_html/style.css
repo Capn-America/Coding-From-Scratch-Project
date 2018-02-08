@@ -1,11 +1,17 @@
+#container
+{
+    background-image: radial-gradient(#ecc6d9,purple);
+	color: black;
+}
+
 img {
    width: 90px;
    height: 90px;
    float: left;
 }
-
 #idCard {
    border: 5px solid black;
+   background-image: radial-gradient(#ffd9b3,#ffb366);
    height: 14em;
    width: 25em;
 }

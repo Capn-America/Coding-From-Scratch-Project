@@ -1,6 +1,7 @@
 #container
 {
     width: 600px;
+    height:720px;
     background-image: radial-gradient(#ecc6d9,purple);
 	color: black;
         border: inset  #8a00e6 15px;
@@ -27,6 +28,7 @@
 button{
     text-align: center;
     height: 40px;
+    font-size: 15px;
     margin-top: 25px;
     
     border-radius: 10px;

@@ -5,6 +5,7 @@
     background-image: radial-gradient(#ecc6d9,purple);
 	color: black;
         border: inset  #8a00e6 15px;
+        border-radius: 15px;
         padding: 10px;
         text-align: center;
 }
@@ -47,4 +48,8 @@ img {
    font-family: 'Ubuntu', sans-serif;
    height: 14em;
    width: 25em;
+}
+#postFullName
+{
+    font-size: 40px;
 }

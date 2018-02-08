@@ -5,11 +5,31 @@
 	color: black;
         border: inset  #8a00e6 15px;
         padding: 10px;
+        text-align: center;
 }
 #headingFont
 {
     font-family: 'Rammetto One', cursive;
     text-align: center;
+}
+
+#formDiv
+{
+    text-align: center;
+}
+
+.formInputs
+{
+    margin-bottom: -2px;
+    margin-top: 10px;
+}
+
+button{
+    text-align: center;
+    height: 40px;
+    margin-top: 25px;
+    
+    border-radius: 10px;
 }
 img {
    width: 90px;
@@ -17,7 +37,8 @@ img {
    float: left;
 }
 #idCard {
-   margin-left: 90px;
+    margin-top: 35px;
+   margin-left: 95px;
    border: 5px solid black;
    border-radius: 25px;
    background-image: radial-gradient(#ffd9b3,#ffb366);

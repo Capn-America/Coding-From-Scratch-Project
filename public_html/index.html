@@ -8,20 +8,35 @@
    <body>
        <div id="container">
            <h1 id='headingFont'>Let's Create an Id Card!</h1>
-           <div>
+           <div id="formDiv">
                <form>
-                   
-               </form>
+                   <h3 class="formInputs">First Name:</h3>
+                   <div> <input id="firstName" type="text" placeholder="First Name"/></div>
+                   <h3 class="formInputs">Last Name:</h3>
+                   <div> <input id="lastName" type="text" placeholder="Last Name"/></div>
+                   <h3 class="formInputs">Age:</h3>
+                   <div> <input id="age" type="text" placeholder="Age"/></div>
+                   <h3 class="formInputs">Phone Number</h3>
+                   <div> <input id="phoneNumber" type="text" placeholder="Phone Number"/></div>
+                   <h3 class="formInputs">Address</h3>
+                   <div> <input id="address" type="text" placeholder="Adress"/></div>
+                       </form>
            </div>
+   
+    <button id="btn">Get ID Card!</button>
+      
+                   
+           
        
 
             <div id="idCard">
                 <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
-                <p id="postFullName"></p>
-                <p id="postAge"></p>
-                <p id="postPhoneNumber"></p>
-                <p id="postAddress"></p>
+                <p id="postFullName">Full Name</p>
+                <p id="postAge">age</p>
+                <p id="postPhoneNumber">number</p>
+                <p id="postAddress">adress</p>
            </div>
        </div>
+       <script src="script.js"></script>
    </body>
 </html>

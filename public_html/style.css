@@ -38,7 +38,7 @@ img {
    width: 90px;
    height: 90px;
    float: left;
-   border: transparent 1px;
+   border: black 1px;
    display: inline;
    display: inline-block;
    margin-bottom: 0px;
@@ -50,118 +50,23 @@ img {
    border-radius: 25px;
    background-image: radial-gradient(#ffd9b3,#ffb366);
    font-family: 'Ubuntu', sans-serif;
+   padding: 5px;
+   
    height: 14em;
    width: 25em;
+   text-align: left;
 }
 #postFullName
 {
     font-size: 40px;
-    
+    width: 300px;
     margin-top: 30px;
-   border: transparent 1px;
+  
    display: inline-block;
    margin-bottom: 15px;
 }
 
-.IdInputLabelAge
-{
-  
-  
-    display: inline;
-  float: left;
-   height: 35px;
-    width:50px;
-    margin-top: 0;
-    
-     border: transparent 1px;  
-
-}
-
-.IdInputLabelPhone
-{
-   display: inline;
-  float: left;
-   height: 35px;
-    width:50px;
-    margin-top: 0;
-    
-     border: transparent 1px;
-
-}
-.IdInputLabelAddress
-{
-    display: inline;
-  float: left;
-   height: 35px;
-    width:75px;
-    margin-top: -20px;
-    
-     border: transparent 1px;  
-    
-
-    }
-.IdInputLabelPhone
-{
-    
-       float: left;
-    margin-top: -10px;
-    margin-bottom: 5px;
-    
-    display: inline;
-    
-    
+p{
+    font-size: 20px;
    
-    width: 10em;
-    border:transparent 1px;
-    
-
-}
-
-
-#postAge
-{
-    float: left;
-    margin-top:0px;
-    display: inline;
-    margin-left: 0px;
-    font-size: 15px;
-    width: 100px;
-    padding: 10px;
-     border: transparent 1px;
-  
-}
-
-#postPhoneNumber
-{
-   float: left;
-    margin-top:-13px;
-    display: inline-block;
-    margin-left: 0px;
-    font-size: 15px;
-    width: 100px;
-    padding: 10px;
-     border: transparent 1px;
-}
-
-#postAddress
-{
-    float: left;
-    height: 35px;
-    display: inline;
-    margin-left: 0px;
-    margin-top: -15px;
-    font-size: 15px;
-        border: transparent 1px;
-        width: 170px;
-}
-
-.divIdbottom{
-    margin: 2px;
-    border: transparent 1px;
-    height: 37px;
-    width: 20em;
-        
-        display: block;
-       
-        
 }

@@ -68,6 +68,44 @@ img {
 
 
 p{
+    
+    
+    display: inline;
     font-size: 20px;
+    
+    
    
+}
+.spacer{
+    height: 15px;
+    width: 150px;
+}
+
+#postAge
+{
+   
+    font-family: "Times New Roman", Times, serif;
+    font-weight: Bold;
+}
+
+#postPhoneNumber
+
+{
+   
+    font-family: "Times New Roman", Times, serif;
+    font-weight: Bold;
+}
+
+
+#postAddress
+
+{
+   
+    font-family: "Times New Roman", Times, serif;
+    font-weight: Bold;
+}
+
+.invisible
+{
+    color: transparent;
 }

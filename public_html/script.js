@@ -27,19 +27,20 @@ document.getElementById("postFullName").innerHTML =firstName+" "+lastName;
         if(numberArray[i]<100)
         {
             //age
-            document.getElementById("postAge").innerHTML ="Age:  "+ " "+numberArray[i];
+            document.getElementById("postAge").innerHTML =" "+numberArray[i];
+            
 
         }
         else if(numberArray[i]>100)
         {
             //phone number
             
-            document.getElementById("postPhoneNumber").innerHTML="Phone Number:  "+" "+numberArray[i];
+            document.getElementById("postPhoneNumber").innerHTML=" "+numberArray[i];
         }
     }
 
 
-document.getElementById("postAddress").innerHTML = "Address:  "+" "+address;
+document.getElementById("postAddress").innerHTML =" "+address;
 
 
 
